@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Removed flex properties to avoid layout issues */
+}
+
+header {
+    width: 100%;
+    background-color: #125a54;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;  /* Centering the main content */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #4CAF50; /* Adding background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: #45a049;
+    
+}
+
+.job-listing {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+/* Fixing a tag by removing the incomplete position property */
+a {
+    margin-top: 1rem;
+    padding: 0.00em;
+    background-color: #f4f7f4; /* Adding background color */
+    color: white;
+    border: 10cqb;
+    
+    cursor: pointer;
+    font-size: xx-large;
+    
+    color: #4CAF50;  /* Adding color to links */
+    text-decoration: none;  /* Ensure links have no underline */
+}
+
+a:hover {
+    text-decoration: underline;  /* Add underline on hover */
+}
